@@ -2,6 +2,6 @@ name: 'Stock API'
 description: 'Retrieve stock information from Alpha Vantage and cache them in the database.'
 package: Stock
 core: 8.x
-core_version_requirement: ^9 || ^10
+core_version_requirement: ^9 || ^10 || ^11
 configure: stockapi.admin_settings
 type: module
